@@ -249,3 +249,20 @@
     }
 
 }
+
+
+/*Responsividade Mobile*/
+
+@media (width < 900px) {
+    .hero {
+        flex-direction: column-reverse;
+
+        & h1 {
+            text-align: center;
+        }
+
+        & .buttons {
+            flex-direction: column-reverse;
+        }
+    }
+}
